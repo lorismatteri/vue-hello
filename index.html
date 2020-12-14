@@ -8,6 +8,11 @@
             .red_center {
                 color: red;
                 text-align: center;
+                font-size: 3rem;
+            }
+            
+            .w_100 {
+                width: 100%;
             }
         </style>
     </head>
@@ -15,6 +20,7 @@
 
         <div id="root">
             <h1 v-bind:class="title">{{message}}</h1>
+            <img v-bind:src="image" v-bind:class="width" alt="">
         </div>
         
 

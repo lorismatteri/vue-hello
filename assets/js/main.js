@@ -4,8 +4,9 @@ let app = new Vue ({
     el: "#root",
     data: {
         message: "Che la forza sia con te!",
-        title: "red_center"
+        title: "red_center",
+        //Bonus: Aggiungere un’immagine presa anch’essa da un data
+        image: "./assets/img/baby-yoda.jpg",
+        width: "w_100"
     }
 })
-
-//Bonus: Aggiungere un’immagine presa anch’essa da un data
